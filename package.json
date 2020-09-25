@@ -1,8 +1,10 @@
 {
-  "devDependencies": {},
   "name": "curs-udemy-om",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Franccesco Antonio <Tiesco789@users.noreply.github.com>",
-  "license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+    "prettier": "^2.1.2"
+  }
 }
