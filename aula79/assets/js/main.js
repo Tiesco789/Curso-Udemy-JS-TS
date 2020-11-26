@@ -10,13 +10,13 @@ const comer = {
   },
 };
 
-const drink = {
+const beber = {
   beber() {
     console.log(`${this.nome} está bebendo`);
   },
 };
 
-const pessoaPrototype = Object.assign({}, falar, comer, drink);
+const pessoaPrototype = Object.assign({}, falar, comer, beber);
 
 function criaPessoa(nome, sobrenome) {
 	return Object.create(pessoaPrototype, {
